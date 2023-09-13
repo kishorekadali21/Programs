@@ -1,0 +1,16 @@
+package com.Methods;
+
+public class MethodExample {
+	public int addNumbers(int a, int b) {
+		int addition = a + b;
+		return addition;
+	}
+	public static void main(String[] args) {
+		int i = 10;
+		int j = 20;
+		MethodsExample obj = new MethodsExample();
+		int result = obj.addNumbers(i, j);
+		System.out.println("Sum of a+b = " + result);
+	}
+
+}

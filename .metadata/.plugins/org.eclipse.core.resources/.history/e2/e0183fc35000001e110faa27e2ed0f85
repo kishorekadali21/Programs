@@ -1,0 +1,9 @@
+package com.java1;
+
+public class PersonsAgeAndSalary {
+	public static void main(String [] args) throws Exception {
+		InputStreamReader isr = new IInput
+		
+	}
+
+}

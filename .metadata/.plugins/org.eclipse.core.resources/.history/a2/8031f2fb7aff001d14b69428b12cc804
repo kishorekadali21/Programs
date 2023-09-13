@@ -1,0 +1,5 @@
+package com.loop;
+
+public class NestedP6 {
+	public static void main(String[] args) {
+	

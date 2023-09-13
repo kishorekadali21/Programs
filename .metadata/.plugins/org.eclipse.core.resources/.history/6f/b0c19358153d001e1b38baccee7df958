@@ -1,0 +1,22 @@
+package com.streamAPI;
+
+import java.util.Arrays;
+
+public class MatchingDemo1 {
+	public static void main(String[] args) {
+		Car c1 = new Car("GLA", "MERCEDESBENZ");
+		Car c2 = new Car("Land Cruiser", "TOYOTA");
+		Car c3 = new Car("Rapid", "SKODA");
+		Car c4 = new Car("TRock", "VOLKSWAGON");
+		
+		List<Car> cars = Arrays.asList(c1,c2,c3,c4);
+		
+		boolean anyToyotan = cars.stream().anyMatch(c -> c.company.equals("TOYOTA"));
+		System.out.println("Any Toyota available: "+anyToyota);
+		
+		
+		
+			
+	}
+
+}
